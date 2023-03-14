@@ -1,13 +1,10 @@
-import logo from '../img/main_logo.png'
-
 export const Header = () => {
-
     return (
-        <div className="px-[80px] py-[50px]">
+        <div className="px-[80px] py-[50px] border-x-black border-t-black border-2">
 
             <div className="flex justify-between mb-[25px]">
-                <img src={require("../img/main_logo.png")} alt="" className="w-[125px] h-[59px]" />
-                <div className="flex justify-between w-96 text-[16px]">
+                <label className="text-[18px] font-albert font-bold">PEDRO ALIGHIERI</label>
+                <div className="flex justify-between w-[40%] text-[16px] font-albert font-bold">
                     <a href="/contact">CONTATO</a>
                     <a href="/design">DESIGN</a>
                     <a href="/gravuras">GRAVURAS</a>
@@ -15,12 +12,10 @@ export const Header = () => {
                 </div>
             </div>
 
-            <div className="text-[15px]">
-                Ainda assim, existem dúvidas a respeito de como o surgimento do comércio virtual
-                auxilia a preparação e a composição dos conhecimentos estratégicos para atingir a excelência.
-                Ainda assim, existem dúvidas a respeito de como o surgimento do comércio virtual auxilia
-                a preparação e a composição dos conhecimentoestratégicos para atingir a excelência.
-                Ainda assim, existem dúvidas a respeito de como o surgimento do comércio virtual
+            <div className="text-[20px] font-frank">
+                É um artista e designer brasileiro, focado em product design nas áreas de UI, UX e Design System. <br />
+                Apaixonado por arte, tecnologia, um bom café e potiguar de coração. <br />
+                Desenvolveu aplicações para Serpro, Embrapa, Universidade de Brasília entre outros.
             </div>
         </div>
     )
