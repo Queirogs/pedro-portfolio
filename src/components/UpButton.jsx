@@ -1,3 +1,5 @@
+import Arrow from '../img/uparrow.png'
+
 export const UpButton = () => {
 
     function rollUp() {
@@ -6,8 +8,8 @@ export const UpButton = () => {
 
     return (
         <div class="flex justify-end">
-            <div onClick={rollUp} className="text-[40px] border-black border-2 h-[62px] w-[199px] fixed flex justify-center top-[50%] float-left">
-                UP/CIMA
+            <div onClick={rollUp} className="border-black border-2 h-[125px] aspect-square fixed flex justify-center items-center top-[50%] float-left">
+                <img className="aspect-square w-[96px] h-[96px]" src={Arrow} alt="" />
             </div>
         </div>
     )
