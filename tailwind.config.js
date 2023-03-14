@@ -6,6 +6,10 @@ module.exports = {
     "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {},
+    fontFamily: {
+      'albert': ['Albert Sans'],
+      'frank': ['Frank Ruhl Libre']
+    }
   },
   plugins: [],
-}
+} 
