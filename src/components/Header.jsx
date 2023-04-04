@@ -1,11 +1,16 @@
 export const Header = () => {
+
+    function rollDown() {
+        console.log("click")
+        window.scrollTo({ top: 10000, behavior: 'smooth' })
+    }
     return (
-        <div className="px-[80px] py-[50px] border-x-black border-t-black border-2">
+        <div className="px-[80px] py-[50px] border-x-black border-t-black">
 
             <div className="flex justify-between mb-[25px]">
                 <label className="text-[18px] font-albert font-bold">PEDRO ALIGHIERI</label>
                 <div className="flex justify-between w-[40%] text-[16px] font-albert font-bold">
-                    <a href="/contact">CONTATO</a>
+                    <a onClick={rollDown}>CONTATO</a>
                     <a href="/design">DESIGN</a>
                     <a href="/gravuras">GRAVURAS</a>
                     <a href="/about">SOBRE</a>
